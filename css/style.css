@@ -398,3 +398,6 @@ a.enquiry-btn {
     height: 100vh;
     margin-right: 50px;
 }
+.new {
+    float: none;
+}
