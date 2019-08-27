@@ -1,0 +1,400 @@
+/* reset css ends */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    border: 0;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+html {
+    height: 100%;
+    font-size: 62.5%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    touch-action: none;
+}
+body, button, input, select, textarea {
+    color: #222223;
+    font-size: 19px;
+    font-size: 1.9rem;
+    font-weight: 400;
+    line-height: 29px;
+    line-height: 2.9rem;
+}
+body {
+    height: 100%;
+    background: #fff;
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+}
+a {
+    color: #222223;
+    text-decoration: none;
+}
+a:hover {
+    color: #963cbd;
+    border-bottom: 1px solid #963cbd;
+}
+a:focus, a:hover, a:active {
+    outline: 0;
+}
+img {
+    -ms-interpolation-mode: bicubic;
+    border: 0;
+    vertical-align: top;
+}
+::selection {
+    background: #963cbd;
+    color: #fff;
+    text-shadow: none;
+}
+::-moz-selection {
+    background: #963cbd;
+    color: #fff;
+    text-shadow: none;
+}
+input, textarea {
+    border: 1px solid #222223;
+    border-radius: 2px;
+    color: #222223;
+    padding: 4px 10px;
+    padding: 0.4rem 1rem;
+    margin-bottom: 3px;
+    margin-bottom: 0.3rem;
+}
+input:focus, textarea:focus {
+    border: 1px solid #963cbd;
+    outline: 0;
+}
+
+/* Buttons */
+button, .contributor-posts-link, input[type="button"], input[type="reset"], input[type="submit"] {
+    background-color: #222223;
+    border: 0;
+    border-radius: 2px;
+    color: #963cbd;
+    padding: 5px 20px;
+    padding: 0.5rem 2rem;
+    margin-bottom: 3px;
+    margin-bottom: 0.3rem;
+    vertical-align: bottom;
+}
+button:hover, button:focus, input[type="button"]:hover, input[type="button"]:focus, input[type="reset"]:hover, input[type="reset"]:focus, input[type="submit"]:hover, input[type="submit"]:focus {
+    background-color: #963cbd;
+    color: #fff;
+}
+button:active, .contributor-posts-link:active, input[type="button"]:active, input[type="reset"]:active, input[type="submit"]:active {
+    background-color: #963cbd;
+    color: #fff;
+}
+
+/* Placeholder text color -- selectors need to be separate to work. */
+::-webkit-input-placeholder {
+    color: #222223;
+}
+:-moz-placeholder {
+    color: #222223;
+}
+::-moz-placeholder {
+    color: #222223;    /* Since FF19 lowers the opacity of the placeholder by default */
+    opacity: 1;
+}
+:-ms-input-placeholder {
+    color: #222223;
+}
+
+/* reset css ends */
+#wrapper {
+    width: 100%;
+    height: 100%;
+}
+.main-content {
+    height: 100%;
+    white-space: nowrap;
+}
+.page-con {
+    display: inline-block;
+    vertical-align: top;
+    white-space: normal;
+    word-wrap: break-word;
+}
+a:hover, a:focus {
+    text-decoration: none;
+}
+
+/* customs css  */
+.banner-brief h1 {
+    font-size: 100px;
+    font-weight: 800;
+    color: #000;
+    margin-bottom: 20px;
+    line-height: 100px;
+}
+.desc-2.banner-brief h1 {
+    line-height: 100px;
+}
+.banner-brief h1 .small {
+    font-size: 30px;
+    display: block;
+    color: #000;
+    font-weight: 600;
+}
+.banner-brief h6 {
+    font-size: 14px;
+    color: #8852a8;
+    display: block;
+    font-weight: 600;
+}
+.display-block {
+    display: block;
+}
+.desc-1 {
+    position: relative;
+    z-index: 1;
+    width: 55%;
+    height: 100vh;
+}
+.banner-brief {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    padding: 0 200px;
+}
+ul {
+    list-style: none;
+}
+.banner-brief li {
+    display: inline-block;
+    padding: 0 15px;
+    color: #8852a8;
+    font-size: 14px;
+}
+.banner-brief li a {
+    color: #8852a8;
+    font-weight: 600;
+}
+.banner-brief h3 {
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 800;
+    padding-bottom: 20px;
+}
+.banner-brief p {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #000;
+    padding-bottom: 20px;
+}
+.home-banner-img img {
+    height: 100vh;
+}
+.swiper-container {
+    width: 100%;
+    height: 100vh;
+}
+.swiper-slide {
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.post-5.page-con {
+    width: 80%;
+    background: #f9f9f9;
+}
+.menu-link-img img {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+}
+.menu-link-desc {
+    position: absolute;
+    top: 50%;
+    z-index: 2;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+}
+.menu-link-desc h2 {
+    font-size: 50px;
+    color: #fff;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.menu-link-desc a {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cat_op {
+    width: 70%;
+}
+.cat_head h3 {
+    text-align: left;
+    color: #000;
+    font-size: 30px;
+    padding-left: 15px;
+    font-weight: 700;
+    display: inline;
+    float: left;
+}
+.cat_head a {
+    float: right;
+    padding-right: 20px;
+    color: #8852a8;
+    font-size: 12px;
+    font-weight: 700;
+}
+.cat_head h4 {
+    clear: left;
+    margin-left: 20px;
+    text-align: left;
+    line-height: 30px;
+}
+.cat_op .catering {
+    margin-top: 40px;
+}
+.cat_op h6 {
+    text-align: left;
+    font-size: 18px;
+    padding-top: 28px;
+    padding-bottom: 10px;
+    color: #000;
+    font-weight: 700;
+}
+.catering a {
+    color: #8852a8;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: left;
+}
+.Insta_Content {
+    padding: 100px 0;
+    background-color: #f9f9f9;
+}
+.Insta_Content h2 {
+    font-size: 30px;
+    color: #000;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-align: left;
+}
+.Insta_Content ul {
+    text-align: right;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+.Insta_Content li {
+    display: inline;
+    margin-right: 20px;
+    font-size: 15px;
+}
+.Insta_Content li a {
+    font-weight: 600;
+    color: #8852a8;
+}
+.insta_post img {
+    width: 100%;
+}
+.fs_ls {
+    background: #e8e6e9;
+    padding: 75px 0;
+    width: 100%;
+}
+.get_in_touch {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+.get_in_touch h2 {
+    color: #000000;
+    font-weight: bold;
+    font-size: 50px;
+    padding: 0px;
+    padding-bottom: 28px;
+}
+.get_in_touch p {
+    font-size: 12px;
+    color: #000000;
+    font-weight: 600;
+    padding: 0px;
+    padding-bottom: 35px;
+}
+.fs_ls.fs_ls_n .display-flex {
+    justify-content: center;
+    display: flex;
+    width: 100%;
+}
+.contact-div-first {
+    border-right: 1px solid #666;
+    padding: 0 20px;
+}
+.contact-div-first {
+    border-right: 1px solid #666;
+    padding: 0 20px;
+}
+.contact-div-first a {
+    display: block;
+    color: #9b2887;
+}
+.contact-div-second {
+    padding: 0 20px;
+}
+a.enquiry-btn {
+    color: #9b2887;
+    font-size: 18px;
+    font-weight: 700;
+    border: 1px solid #9b2887;
+    padding: 10px;
+    display: inline-block;
+}
+.disclaimer p {
+    color: #a8a8a8;
+    font-size: 11px;
+    padding-bottom: 0px;
+    padding-top: 20px;
+}
+.disclaimer p a {
+    color: #956ab1;
+    font-size: 11px;
+    text-decoration: none;
+}
+.text-right {
+    text-align: right;
+}
+.swiper-button-prev, .swiper-container-rtl .swiper-button-prev {
+    left: 100px;
+    background: url(../images/arrow-point-to-left.png) no-repeat;
+}
+.swiper-button-next, .swiper-container-rtl .swiper-button-next {
+    right: 100px;
+    background: url(../images/arrow-point-to-right.png) no-repeat;
+}
+.post-5 {
+    height: 100vh;
+    margin-right: 50px;
+}
